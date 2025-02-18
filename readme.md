@@ -1,7 +1,8 @@
 # Stone Paper Scissors Game
 
 ## Overview
-This is a simple Stone Paper Scissors game built using **HTML, CSS, and JavaScript**. The game allows a user to play against the computer in a classic best-of-one match.
+This is a simple Stone Paper Scissors game built using 
+**HTML, CSS, and JavaScript**. The game allows a user to play against the computer in a classic best-of-one match.
 
 ## Features
 - **User vs Computer mode**: The user selects **Stone, Paper, or Scissors**, and the computer randomly picks one.
