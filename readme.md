@@ -1,42 +1,46 @@
-# Tic Tac Toe Game
+# Stone Paper Scissors Game
 
 ## Overview
-This is a simple Tic Tac Toe game built using **HTML, CSS, and JavaScript**. The game allows a user to play against the computer in a 3×3 grid until one wins or the game ends in a draw.
+This is a simple Stone Paper Scissors game built using **HTML, CSS, and JavaScript**. The game allows a user to play against the computer in a classic best-of-one match.
 
 ## Features
-- **User vs Computer mode**: The user plays as `X`, and the computer plays as `O`.
-- **Win detection**: The game identifies when the user or the computer wins or when the game results in a draw.
+- **User vs Computer mode**: The user selects **Stone, Paper, or Scissors**, and the computer randomly picks one.
+- **Win detection**: The game determines the winner based on the classic rules:
+  - **Stone beats Scissors**
+  - **Scissors beats Paper**
+  - **Paper beats Stone**
+  - A tie occurs when both choices are the same.
+- **Score tracking**: The game keeps track of user and computer wins.
 - **Reset functionality**: Players can restart the game at any time.
-- **Planned Responsive Design**: The game is currently not fully responsive but will be updated to adapt to different screen sizes.
-- **Basic AI opponent**: The computer makes random valid moves.
-- **Flexbox layout**: The game board and elements are styled using CSS Flexbox for a clean design.
+- **Basic UI animations**: Smooth transitions and visual effects for a better user experience.
+- **Planned Responsive Design**: Currently not fully responsive, but future updates will ensure adaptability across different screen sizes.
 
 ## Technologies Used
-- **HTML**: Structure of the game board.
-- **CSS (Flexbox)**: Styling for the game layout and positioning.
-- **JavaScript**: Logic for game functionality, player turns, and win detection.
+- **HTML**: Structure of the game.
+- **CSS (Flexbox & Animations)**: Styling and layout.
+- **JavaScript**: Game logic, user interaction, and random computer choices.
 
 ## How to Play
 1. Open the `index.html` file in a web browser.
-2. The user (X) and the computer (O) take turns playing.
-3. The first to get three marks in a row (horizontally, vertically, or diagonally) wins.
-4. If all squares are filled and no winner is determined, the game ends in a draw.
+2. Click on either **Stone, Paper, or Scissors** to make a selection.
+3. The computer will automatically make its choice.
+4. The game will display the winner or if it's a tie.
 5. Click the "Restart" button to play again.
 
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/tic-tac-toe.git
+   git clone https://github.com/your-username/stone-paper-scissors.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd tic-tac-toe
+   cd stone-paper-scissors
    ```
 3. Open `index.html` in your browser.
 
 ## Project Structure
 ```
- tic-tac-toe/
+ stone-paper-scissors/
  |-- index.html  # Main HTML file
  |-- style.css   # Stylesheet
  |-- script.js   # Game logic
@@ -44,14 +48,15 @@ This is a simple Tic Tac Toe game built using **HTML, CSS, and JavaScript**. The
 ```
 
 ## Future Enhancements
-- Improve AI to make smarter moves.
-- Include animations for better user experience.
-- Improve UI with additional themes.
+- Add **best-of-three** or **best-of-five** mode.
+- Implement advanced AI with strategic decision-making.
+- Introduce sound effects and animations for better engagement.
+- Add multiplayer mode (play against friends online).
 - Make the game fully responsive for different screen sizes.
 
 ## License
 This project is open-source and available under the **MIT License**.
 
 ## Author
-Developed by **krishna goel**. Feel free to contribute or suggest improvements!
+Developed by **Krishna Goel**. Feel free to contribute or suggest improvements!
 
